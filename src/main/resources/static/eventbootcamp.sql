@@ -1,7 +1,7 @@
 CREATE TABLE `event` (
 `id` bigint(20) NOT NULL AUTO_INCREMENT,
-`id_organizer` bigint(255) NULL DEFAULT NULL,
-`id_category` bigint(255) NULL DEFAULT NULL,
+`id_organizer` bigint(20) NULL DEFAULT NULL,
+`id_category` bigint(20) NULL DEFAULT NULL,
 `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
 `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
 `urlImage` varchar(255) NULL,
